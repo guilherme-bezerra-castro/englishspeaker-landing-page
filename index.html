@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos/css.css" />
+  <link rel="icon" href="imagens/logo.png" />
+  <title>English Speaker</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#top">Home</a></li>
+      <li><a href="#sob">Sobre</a></li>
+      <li><a href="#cur">Cursos</a></li>
+      <li><a href="#met">Metodologia</a></li>
+      <li><a href="#con">Contato</a></li>
+      <li><a href="#formcontato">Matricule-se já!</a></li>
+    </ul>
+  </nav>
+  <main>
+    <header class="mainHeader" id="top">
+      <h1 class="tituloDecor">Welcome to English Speaker</h1>
+      <p>Venha aprender conosco e saia falando inglês sem fronteiras!</p>
+    </header>
+
+    <section class="container">
+      <img src="imagens/imagem1.jpg" alt="Sobre a escola" class="imgCheia">
+    </section>
+
+    <section class="txt fadeIn" id="sob">
+      <h2>Sobre a English Speaker</h2>
+      <p>A English Speaker é uma escola de inglês acolhedora, focada no desenvolvimento completo da fluência dos alunos. Fundada em 2021, somente aqui se aprende o inglês do cotidiano de falantes nativos por meio da imersão do aluno na cultura e no idioma inglês.</p>
+    </section>
+
+    <section class="container">
+      <img src="imagens/imagem2.jpg" alt="Cursos" class="imgCheia">
+    </section>
+
+    <div class="txt fadeIn" id="cur">
+      <h2>Nossos Cursos</h2>
+      <p>Oferecemos cursos para todos os níveis. Aulas extras de reposição, dúvidas, conversação e exame MET (Michigan English Test), todas sem custo extra, para que você possa tirar o máximo de proveito durante toda a jornada!.</p>
+      <div class="carrosselCont">
+        <button class="btnAnt" aria-label="Anterior">◀</button>
+        <div class="carrosselVideos"></div>
+        <button class="btnProx" aria-label="Próximo">▶</button>
+      </div>
+    </div>
+
+    <div class="txt fadeIn" id="met">
+      <h2>Nossa Metodologia</h2>
+      <p>Abordagem comunicativa, centrada no aluno, com foco em situações reais do dia a dia e em conversas casuais. Nós da English Speaker temos o papel de compreender e atender as demandas individuais dos nossos alunos e, a partir disso, personalizar a experiência de ensino.</p>
+    </div>
+
+    <section class="container">
+      <img src="imagens/imagem3.jpg" alt="Metodologia" class="imgCheia">
+    </section>
+
+    <div id="con" class="contato">
+      <h2>Entre em Contato!</h2>
+      <table>
+        <caption>Endereços das Unidades - Grupo English Speaker</caption>
+        <tr>
+          <th>Unidade</th>
+          <th>Endereço</th>
+          <th>Cidade</th>
+          <th>Estado</th>
+        </tr>
+        <tr>
+          <td>Unidade Pinheiros</td>
+          <td>Rua das Letras, 123</td>
+          <td>São Paulo</td>
+          <td>SP</td>
+        </tr>
+        <tr>
+          <td>Unidade Campo Grande</td>
+          <td>Avenida Cultura, 456</td>
+          <td>Rio de Janeiro</td>
+          <td>RJ</td>
+        </tr>
+        <tr>
+          <td>Unidade Norte</td>
+          <td>Praça do Inglês, 789</td>
+          <td>Belo Horizonte</td>
+          <td>MG</td>
+        </tr>
+      </table>
+    </div>
+    <div class="formCont fadeIn" id="formcontato">
+      <h2>Matricule-se já!</h2>
+      <form action="#" method="get">
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="telefone">Telefone celular:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+
+        <label for="unidade">Unidade desejada:</label>
+        <select id="unidade" name="unidade" required>
+          <option value="">Selecione uma unidade</option>
+          <option value="pinheiros">Unidade Pinheiros - São Paulo</option>
+          <option value="campo-grande">Unidade Campo Grande - Rio de Janeiro</option>
+          <option value="norte">Unidade Norte - Belo Horizonte</option>
+        </select>
+
+        <button type="submit" id="btnform">Enviar</button>
+      </form>
+    </div>
+  <footer>
+    <p>&copy; 2025 English Speaker.</p>
+    <p>Entre em contato conosco pelo telefone (11) 4256-1234 ou pelo e-mail <a href="mailto:englishspeaker@email.com.br" class="emailLink">englishspeaker@email.com.br</a></p>
+  </footer>
+
+  <button id="topBtn" title="Voltar ao topo">↑</button>
+  <script src="scripts/jscript.js"></script>
+</body>
+</html>
