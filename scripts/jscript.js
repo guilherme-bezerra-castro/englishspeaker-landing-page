@@ -120,7 +120,6 @@ function funExibeSlide(indice) {
 
     slide.classList.toggle('ativo', i === indice);
     slide.style.zIndex = i === indice ? 1 : 0;
-    slide.style.opacity = i === indice ? 1 : 0;
   }
 }
 
