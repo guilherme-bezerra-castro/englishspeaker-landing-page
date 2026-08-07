@@ -38,6 +38,7 @@ nav ul li a {
   text-decoration: none;
   padding: 5px 10px;
   display: inline-block;
+  transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
@@ -45,7 +46,6 @@ nav ul li a:hover {
   color: whitesmoke;
   box-shadow: 0 0 10px whitesmoke;
   border-radius: 5px;
-  transition: all 0.3s ease;
 }
 
 .mainHeader {
@@ -335,9 +335,7 @@ footer {
 
   nav ul li {
     width: 20%;
-    float: left;
     border-radius: 10px;
-    transition: background-color 5s;
   }
 
   .txt p {
